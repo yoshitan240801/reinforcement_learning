@@ -105,7 +105,7 @@ graph TB
     F --> G[Critic: 状態価値 V St+1]
     G --> H[TD誤差 δ = Rt + γV St+1 - V St]
     H --> I[Critic更新: MSE損失]
-    H --> J[Actor更新: -log πθ At|St × δ]
+    H --> J[Actor更新: -log πθ At&#124;St × δ]
 ```
 
 ---
