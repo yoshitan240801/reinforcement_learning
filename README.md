@@ -1,1 +1,23 @@
-# reinforcement_learning
+# Pytorchで自学自習で実装した強化学習ユースケース集
+
+このリポジトリでは、**Pytorch**を使って自学自習で作ってみた強化学習のコードを紹介しています。
+
+A2C、PPOに関心がある方に適しています。
+
+---
+
+## 🔧 使用技術
+
+- **Pytorch**
+
+---
+
+## 📁 ディレクトリ構成
+
+| ディレクトリ名 | 概要 |
+|----------------|------|
+| [`actor-critic_optimize-price`](./actor-critic_optimize-price) | 基本的なA2Cを環境も含めて実装したもの |
+| [`ppo-provisional_optimize-price`](./ppo-provisional_optimize-price) | PPOもどきを環境も含めて実装したもの |
+| [`ppo_optimize-price`](./ppo_optimize-price) | 基本的なPPOを環境も含めて実装したもの |
+
+---
