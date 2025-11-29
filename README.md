@@ -20,7 +20,8 @@ A2C、PPO、SAC、MPCに関心がある方に適しています。
 | [`ppo-provisional_optimize-price`](./ppo-provisional_optimize-price) | PPOもどきを環境も含めて実装したもの |
 | [`ppo_optimize-price`](./ppo_optimize-price) | 基本的なPPOを環境も含めて実装したもの |
 | [`sac_optimize-price`](./sac_optimize-price) | 基本的なSACを環境も含めて実装したもの |
-| [`sac-mpc_optimize-price`](./sac-mpc_optimize-price) | 基本的なSACを環境も含めて実装したもの |
+| [`sac-mpc_optimize-price`](./sac-mpc_optimize-price) | 基本的なSACに基本的なMPCを組み込んだものを環境も含めて実装したもの |
 
 ---
+
 
