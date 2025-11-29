@@ -2,7 +2,7 @@
 
 このリポジトリでは、**Pytorch**を使って自学自習で作ってみた強化学習のコードを紹介しています。
 
-A2C、PPOに関心がある方に適しています。
+A2C、PPO、SAC、MPCに関心がある方に適しています。
 
 ---
 
@@ -19,5 +19,8 @@ A2C、PPOに関心がある方に適しています。
 | [`actor-critic_optimize-price`](./actor-critic_optimize-price) | 基本的なA2Cを環境も含めて実装したもの |
 | [`ppo-provisional_optimize-price`](./ppo-provisional_optimize-price) | PPOもどきを環境も含めて実装したもの |
 | [`ppo_optimize-price`](./ppo_optimize-price) | 基本的なPPOを環境も含めて実装したもの |
+| [`sac_optimize-price`](./sac_optimize-price) | 基本的なSACを環境も含めて実装したもの |
+| [`sac-mpc_optimize-price`](./sac-mpc_optimize-price) | 基本的なSACを環境も含めて実装したもの |
 
 ---
+
