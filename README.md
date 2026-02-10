@@ -2,7 +2,7 @@
 
 このリポジトリでは、**Pytorch**を使って自学自習で作ってみた強化学習のコードを紹介しています。
 
-A2C、PPO、SAC、MPCに関心がある方に適しています。
+A2C、PPO、SAC、MPC、MBPO、CQL、Dreamerに関心がある方に適しています。
 
 ---
 
@@ -20,9 +20,13 @@ A2C、PPO、SAC、MPCに関心がある方に適しています。
 | [`ppo-provisional_optimize-price`](./ppo-provisional_optimize-price) | 性能向上のためにPPOもどきを環境も含めて実装したもの |
 | [`ppo_optimize-price`](./ppo_optimize-price) | 性能向上のために基本的なPPOを環境も含めて実装したもの |
 | [`sac_optimize-price`](./sac_optimize-price) | オフポリシーのために基本的なSACを環境も含めて実装したもの |
+| [`sac-mpc_optimize-price`](./sac-mpc_optimize-price) | 基本的なSACにMPCを組み込んだものを環境も含めて実装したもの |
+| [`sac-mbpo_optimize-price`](./sac-mbpo_optimize-price) | 基本的なSACにMBPOを組み込んだものを環境も含めて実装したもの |
 | [`sac-mpc_optimize-price`](./sac-mpc_optimize-price) | 基本的なSACにモデルベースを理解するために基本的なMPCを組み込んだものを環境も含めて実装したもの |
+| [`dreamer-v2_optimize-price`](./dreamer-v2_optimize-price) | 基本的なSACにDreamer v2を組み込んだものを環境も含めて実装したもの |
 
 ---
+
 
 
 
