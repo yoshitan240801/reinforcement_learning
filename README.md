@@ -22,10 +22,11 @@ A2C、PPO、SAC、MPC、MBPO、CQL、Dreamerに関心がある方に適してい
 | [`sac_optimize-price`](./sac_optimize-price) | オフポリシーのために基本的なSACを環境も含めて実装したもの |
 | [`sac-mpc_optimize-price`](./sac-mpc_optimize-price) | 基本的なSACにMPCを組み込んだものを環境も含めて実装したもの |
 | [`sac-mbpo_optimize-price`](./sac-mbpo_optimize-price) | 基本的なSACにMBPOを組み込んだものを環境も含めて実装したもの |
-| [`sac-mpc_optimize-price`](./sac-mpc_optimize-price) | 基本的なSACにモデルベースを理解するために基本的なMPCを組み込んだものを環境も含めて実装したもの |
+| [`cql-sac_optimize-operator`](./cql-sac_optimize-operator) | 基本的なSACにCQLを組み込んだものを環境も含めて実装したもの |
 | [`dreamer-v2_optimize-price`](./dreamer-v2_optimize-price) | 基本的なSACにDreamer v2を組み込んだものを環境も含めて実装したもの |
 
 ---
+
 
 
 
