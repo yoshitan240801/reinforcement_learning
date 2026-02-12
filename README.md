@@ -20,12 +20,13 @@ A2C、PPO、SAC、MPC、MBPO、CQL、Dreamerに関心がある方に適してい
 | [`ppo-provisional_optimize-price`](./ppo-provisional_optimize-price) | 性能向上のためにPPOもどきを環境も含めて実装したもの |
 | [`ppo_optimize-price`](./ppo_optimize-price) | 性能向上のために基本的なPPOを環境も含めて実装したもの |
 | [`sac_optimize-price`](./sac_optimize-price) | オフポリシーのために基本的なSACを環境も含めて実装したもの |
-| [`sac-mpc_optimize-price`](./sac-mpc_optimize-price) | 基本的なSACに学習データ水増しのためのMPCを組み込んだものを環境も含めて実装したもの |
-| [`sac-mbpo_optimize-price`](./sac-mbpo_optimize-price) | 基本的なSACに学習データ水増しのためのMBPOを組み込んだものを環境も含めて実装したもの |
+| [`sac-mpc_optimize-price`](./sac-mpc_optimize-price) | 基本的なSACに環境も推論するMPCを組み込んだものを環境も含めて実装したもの |
+| [`sac-mbpo_optimize-price`](./sac-mbpo_optimize-price) | 基本的なSACに環境も推論するMBPOを組み込んだものを環境も含めて実装したもの |
 | [`cql-sac_optimize-operator`](./cql-sac_optimize-operator) | 基本的なSACにオフライン学習のためのCQLを組み込んだものを環境も含めて実装したもの |
 | [`dreamer-v2_optimize-price`](./dreamer-v2_optimize-price) | 基本的なSACに世界モデルのDreamer v2を組み込んだものを環境も含めて実装したもの |
 
 ---
+
 
 
 
