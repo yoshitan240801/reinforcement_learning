@@ -1,29 +1,31 @@
 # Pytorchで自学自習で実装した強化学習ユースケース集
 
-このリポジトリでは、**Pytorch**を使って自学自習で作ってみた強化学習のコードを紹介しています。
-
-A2C、PPO、SAC、MPC、MBPO、CQL、Dreamer、Decision Transformerに関心がある方に適しています。
+PyTorchを用いた、強化学習（Reinforcement Learning）の主要アルゴリズムの実装集です。理論の学習と実験を目的として、基本的なモデルフリー手法から最先端のモデルベース・オフライン強化学習まで試しています。
 
 ---
 
-## 🔧 使用技術
+## 🚀 収録アルゴリズム・手法
 
-- **Pytorch**
+本リポジトリでは、以下の手法を実装・検証しています。
+
+| 分類 | 手法名 | 概要 |
+| :--- | :--- | :--- |
+| **モデルフリー (方策勾配系)** | **A2C** (Advantage Actor-Critic) | 同期型のActor-Criticアルゴリズム |
+| | **PPO** (Proximal Policy Optimization) | 安定性と効率性に優れた代表的な方策最適化手法 |
+| **モデルフリー (方策オフ型)** | **SAC** (Soft Actor-Critic) | エントロピー正則化を用いた連続値アクション向けアルゴリズム |
+| **モデルベース** | **MPC** (Model Predictive Control) | 環境モデルを用いたモデル予測制御 |
+| | **MBPO** (Model-Based Policy Optimization) | 習得した環境モデルを活用した効率的な方策最適化 |
+| **オフライン強化学習** | **CQL** (Conservative Q-Learning) | 未知の状態-行動ペアの過大評価を防ぐオフライン強化学習手法 |
+| **ワールドモデル / 系列モデリング** | **Dreamer** | 潜在空間上で環境モデルを学習し計画を行うモデルベース手法 |
+| | **Decision Transformer** | 強化学習を条件付き系列生成（シーケンスモデリング）として扱う手法 |
 
 ---
 
-## 📁 ディレクトリ構成
+## 💻 実行環境・構成
 
-| ディレクトリ名 | 概要 |
-|----------------|------|
-| [`actor-critic_optimize-price`](./actor-critic_optimize-price) | Actor-Criticを理解するために基本的なA2Cを環境も含めて実装したもの |
-| [`ppo_optimize-price`](./ppo_optimize-price) | 性能向上のために基本的なPPOを環境も含めて実装したもの |
-| [`sac_optimize-price`](./sac_optimize-price) | オフポリシーのために基本的なSACを環境も含めて実装したもの |
-| [`sac-mpc_optimize-price`](./sac-mpc_optimize-price) | 基本的なSACに環境も推論するMPCを組み込んだものを環境も含めて実装したもの |
-| [`sac-mbpo_optimize-price`](./sac-mbpo_optimize-price) | 基本的なSACに環境も推論するMBPOを組み込んだものを環境も含めて実装したもの |
-| [`cql-sac_optimize-operator`](./cql-sac_optimize-operator) | 基本的なSACにオフライン学習のためのCQLを組み込んだものを環境も含めて実装したもの |
-| [`dreamer-v2_optimize-price`](./dreamer-v2_optimize-price) | 基本的なSACに世界モデルのDreamer v2を組み込んだものを環境も含めて実装したもの |
-| [`decision-transformer_optimize-price`](./decision-transformer_optimize-price) | オフライン学習の基本的なDecision Transformerを環境も含めて実装したもの |
+*   **言語:** Python
+*   **フレームワーク:** PyTorch
+*   **形式:** 主にJupyter Notebookを用いており、各アルゴリズムの挙動を視覚的かつステップバイステップで確認できます。
 
 ---
 
